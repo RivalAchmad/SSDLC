@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalysisConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <SonarConfigDir>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\conf</SonarConfigDir>
-  <SonarOutputDir>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\out</SonarOutputDir>
-  <SonarBinDir>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\bin</SonarBinDir>
-  <SonarScannerWorkingDirectory>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3</SonarScannerWorkingDirectory>
+  <SonarConfigDir>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\conf</SonarConfigDir>
+  <SonarOutputDir>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\out</SonarOutputDir>
+  <SonarBinDir>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\bin</SonarBinDir>
+  <SonarScannerWorkingDirectory>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC</SonarScannerWorkingDirectory>
   <JavaExePath>C:\Users\rival\.sonar\cache\4bafe2e94439c8193fc8c68247cb0dbaf4e80265b903288f63f128304f129bbe\OpenJDK17U-jre_x64_windows_hotspot_17.0.11_9.zip_extracted\jdk-17.0.11+9-jre/bin/java.exe</JavaExePath>
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>https://sonarcloud.io</SonarQubeHostUrl>
@@ -14,7 +14,7 @@
     <ConfigSetting Id="TfsUri" />
     <ConfigSetting Id="VsCoverageConverterToolPath" />
     <ConfigSetting Id="UnchangedFilesPath" />
-    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3" />
+    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Users\rival\OneDrive\Documents\GitHub\SSDLC" />
     <ConfigSetting Id="settings.file.path" Value="C:\Users\rival\Downloads\sonar-scanner-7.1.0.95705-net-framework\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
@@ -182,8 +182,8 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>
-      <RulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="9.29.0.95321" StaticResourceName="SonarAnalyzer-9.29.0.95321.zip">
           <AssemblyPaths>
@@ -211,13 +211,13 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\conf\cs\SonarLint.xml</Path>
+        <Path>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\conf\cs\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
     <AnalyzerSettings>
       <Language>vbnet</Language>
-      <RulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="9.29.0.95321" StaticResourceName="SonarAnalyzer-9.29.0.95321.zip">
           <AssemblyPaths>
@@ -239,7 +239,7 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\Kuis3\.sonarqube\conf\vbnet\SonarLint.xml</Path>
+        <Path>C:\Users\rival\OneDrive\Documents\GitHub\SSDLC\.sonarqube\conf\vbnet\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
   </AnalyzersSettings>
